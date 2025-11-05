@@ -82,7 +82,7 @@ st.markdown("---")
 st.header("📞 Contact the Developer")
 st.markdown("""
 **👩‍💻 Developed by:** Hemangi Ransing  
-**📧 Email:** [hemaransing@gmail.com](mailto:hemaransing@gmail.com)  
+**📧 Email:** [ransinghemangi@gmail.com](mailto:hemaransing@gmail.com)  
 **📱 Mobile:** +91-8767509860
 **💼 Role:** Fresher 
 
