@@ -49,8 +49,8 @@ st.markdown("### 🔍 *Predict your medical insurance cost instantly!*")
 st.write("This app uses a **Linear Regression model** trained on 3 key factors to estimate insurance charges:")
 
 st.markdown("""
-- 👤 **Sex**
-- ⚖️ **BMI (Body Mass Index)**
+- 🎂 **Age**  
+- ⚖️ **BMI (Body Mass Index)**  
 - 🚬 **Smoker Status**
 """)
 
@@ -59,16 +59,15 @@ st.markdown("---")
 # Input Section
 st.header("🧾 Enter Your Details")
 
-sex = st.selectbox("👤 Select Sex", ["male", "female"])
+age = st.number_input("🎂 Enter Age", min_value=1, max_value=100, value=25)
 bmi = st.number_input("⚖️ Enter BMI (Body Mass Index)", min_value=10.0, max_value=60.0, value=25.0)
 smoker = st.selectbox("🚬 Are you a Smoker?", ["yes", "no"])
 
 # Encode inputs
-sex_val = 1 if sex == "male" else 0
 smoker_val = 1 if smoker == "yes" else 0
 
 # Prepare data for prediction
-input_data = np.array([[sex_val, bmi, smoker_val]])
+input_data = np.array([[age, bmi, smoker_val]])
 
 # Predict button
 if st.button("🔮 Predict Insurance Cost"):
@@ -82,9 +81,9 @@ st.markdown("---")
 st.header("📞 Contact the Developer")
 st.markdown("""
 **👩‍💻 Developed by:** Hemangi Ransing  
-**📧 Email:** [ransinghemangi@gmail.com](mailto:hemaransing@gmail.com)  
-**📱 Mobile:** +91-8767509860 
-**💼 Role:** Fresher 
+**📧 Email:** [ransinghemangi@gmail.com](mailto:ransinghemangi@gmail.com)  
+**📱 Mobile:** +91-8767509860  
+**💼 Role:** Fresher  
 
 *Built with ❤️ using Streamlit and Machine Learning.*
 """)
@@ -92,6 +91,6 @@ st.markdown("""
 # Footer
 st.markdown("""
     <div class="footer">
-        © 2025 Hema Ransing | All Rights Reserved.
+        © 2025 Hemangi Ransing | All Rights Reserved.
     </div>
 """, unsafe_allow_html=True)
