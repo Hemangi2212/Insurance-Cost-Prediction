@@ -1,8 +1,3 @@
-Excellent start, Hema 🌸 — you’ve got a solid base for your **README.md**, and I can help you turn it into a **beautiful, GitHub-ready** file with emojis, structure, and a professional look!
-
-Here’s your **final attractive README.md** version 👇
-
----
 
 ## 💸 Insurance Cost Prediction App
 
