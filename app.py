@@ -83,7 +83,8 @@ st.header("📞 Contact the Developer")
 st.markdown("""
 **👩‍💻 Developed by:** Hemangi Ransing  
 **📧 Email:** [ransinghemangi@gmail.com](mailto:hemaransing@gmail.com)  
-**📱 Mobile:** +91-8767509860
+**📱 Mobile:** +91-8767509860 
+
 **💼 Role:** Fresher 
 
 *Built with ❤️ using Streamlit and Machine Learning.*
