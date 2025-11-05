@@ -81,10 +81,10 @@ st.markdown("---")
 # Contact Section
 st.header("📞 Contact the Developer")
 st.markdown("""
-**👩‍💻 Developed by:** Hema Ransing  
+**👩‍💻 Developed by:** Hemangi Ransing  
 **📧 Email:** [hemaransing@gmail.com](mailto:hemaransing@gmail.com)  
-**📱 Mobile:** +91-9876543210  
-**💼 Role:** Fresher | Web Developer & Data Analytics Enthusiast  
+**📱 Mobile:** +91-8767509860
+**💼 Role:** Fresher 
 
 *Built with ❤️ using Streamlit and Machine Learning.*
 """)
